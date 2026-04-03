@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smit Joshi — Cloud & DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400;500&family=Fraunces:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">SJ<span class="dot">.</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-badge">Available for hire</div>
+    <h1 class="hero-name">
+      <span class="line">Smit</span>
+      <span class="line italic">Joshi</span>
+    </h1>
+    <p class="hero-title">Cloud & DevOps Engineer</p>
+    <p class="hero-sub">AWS · Terraform · Docker · CI/CD</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="mailto:smitmanishbhai@gmail.com" class="btn-ghost">Get in Touch</a>
+    </div>
+    <div class="hero-certs">
+      <span class="cert-badge">☁ AWS Cloud Practitioner</span>
+      <span class="cert-badge">☁ AWS Solutions Architect – Associate</span>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section-label">01 / About</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Building cloud infrastructure that <em>actually</em> scales.</h2>
+        <p>I'm a Computer Science student at <strong>Algoma University</strong> focused on building real-world cloud and DevOps solutions using AWS. My work centers around designing scalable, automated infrastructure using Terraform, Docker, and serverless AWS services.</p>
+        <p>I've built and deployed production-ready cloud applications demonstrating end-to-end architecture — from frontend hosting to backend APIs and CI/CD pipelines.</p>
+        <p>Actively seeking a <strong>Junior Cloud / DevOps Engineer</strong> role in Canada.</p>
+      </div>
+      <div class="about-stat-block">
+        <div class="stat">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Production Cloud Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">2</span>
+          <span class="stat-label">AWS Certifications</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Deployments Automated</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="section-label">02 / Skills</div>
+    <h2>Technical Arsenal</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">☁</div>
+        <h3>Cloud Platforms</h3>
+        <ul>
+          <li>AWS EC2, S3, Lambda</li>
+          <li>API Gateway, DynamoDB</li>
+          <li>CloudFront, Route 53</li>
+          <li>IAM, CloudWatch</li>
+          <li>Microsoft Azure</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">⚙</div>
+        <h3>Infrastructure as Code</h3>
+        <ul>
+          <li>Terraform</li>
+          <li>AWS CloudFormation</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🚀</div>
+        <h3>DevOps & Automation</h3>
+        <ul>
+          <li>GitHub Actions</li>
+          <li>CI/CD Pipelines</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>Bash Scripting</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">{ }</div>
+        <h3>Programming</h3>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Java</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🛠</div>
+        <h3>Tools & Technologies</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>Linux</li>
+          <li>MySQL</li>
+          <li>REST APIs</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="section-label">03 / Projects</div>
+    <h2>What I've Built</h2>
+    <div class="projects-list">
+
+      <article class="project-card" data-index="01">
+        <div class="project-meta">
+          <span class="project-tag">Serverless</span>
+          <span class="project-tag">Terraform</span>
+          <span class="project-tag">CI/CD</span>
+        </div>
+        <h3>Cloud Resume Challenge</h3>
+        <p>Serverless resume website built with AWS S3, CloudFront, and Route 53. Backend API via Lambda, API Gateway, and DynamoDB for visitor tracking. Infrastructure fully automated with Terraform and deployed via GitHub Actions.</p>
+        <ul class="project-bullets">
+          <li>HTTPS, DNS, and IAM security configured for production</li>
+          <li>CI/CD pipeline for automatic deployments on push</li>
+          <li>Visitor counter persisted in DynamoDB</li>
+        </ul>
+      </article>
+
+      <article class="project-card" data-index="02">
+        <div class="project-meta">
+          <span class="project-tag">Docker</span>
+          <span class="project-tag">ECS Fargate</span>
+          <span class="project-tag">Terraform</span>
+        </div>
+        <h3>Containerized App Deployment</h3>
+        <p>Containerized Python web application using Docker and deployed on AWS ECS Fargate. Implemented auto-scaling for high availability and load balancing. Container images managed via AWS ECR with CloudWatch monitoring.</p>
+        <ul class="project-bullets">
+          <li>Terraform-provisioned infrastructure</li>
+          <li>Auto-scaling for high availability</li>
+          <li>CloudWatch logging and performance monitoring</li>
+        </ul>
+      </article>
+
+      <article class="project-card" data-index="03">
+        <div class="project-meta">
+          <span class="project-tag">GitHub Actions</span>
+          <span class="project-tag">ECS</span>
+          <span class="project-tag">Security</span>
+        </div>
+        <h3>End-to-End CI/CD Pipeline</h3>
+        <p>Complete CI/CD pipeline using GitHub Actions for automated application deployment. Provisioned AWS ECS, VPC, ALB, and RDS using Terraform. Integrated Trivy for container vulnerability scanning and Slack for real-time notifications.</p>
+        <ul class="project-bullets">
+          <li>Automated rollback on failed deployments</li>
+          <li>Task definition versioning with rolling updates</li>
+          <li>Trivy container vulnerability scanning integrated</li>
+        </ul>
+      </article>
+
+      <article class="project-card" data-index="04">
+        <div class="project-meta">
+          <span class="project-tag">Lambda</span>
+          <span class="project-tag">EventBridge</span>
+          <span class="project-tag">Cost Optimization</span>
+        </div>
+        <h3>AWS Cost Optimization Automation</h3>
+        <p>Serverless automation system to detect and clean up stale EBS volumes to reduce cloud costs. Lambda scans unattached volumes, EventBridge schedules execution, and SNS delivers real-time notifications on stale resources.</p>
+        <ul class="project-bullets">
+          <li>Tagging logic to safely exclude critical volumes</li>
+          <li>CloudWatch logging for audit and debugging</li>
+          <li>Eliminates manual monitoring of orphaned resources</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="section-label">04 / Contact</div>
+    <h2>Let's Work Together</h2>
+    <p class="contact-sub">Open to Junior Cloud / DevOps Engineer roles in Canada. Let's talk.</p>
+    <div class="contact-links">
+      <a href="mailto:smitmanishbhai@gmail.com" class="contact-item">
+        <span class="contact-icon">✉</span>
+        <span>smitmanishbhai@gmail.com</span>
+      </a>
+      <a href="tel:+14374344672" class="contact-item">
+        <span class="contact-icon">☎</span>
+        <span>+1 (437) 434-4672</span>
+      </a>
+      <a href="https://linkedin.com/in/smitjoshi28" target="_blank" class="contact-item">
+        <span class="contact-icon">in</span>
+        <span>linkedin.com/in/smitjoshi28</span>
+      </a>
+      <a href="https://github.com/smjoshi28" target="_blank" class="contact-item">
+        <span class="contact-icon">⌥</span>
+        <span>github.com/smjoshi28</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2025 Smit Joshi</span>
+    <span>Built with ☁ and Terraform</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
