@@ -10,3 +10,4 @@ crash.log
 
 # Sensitive variables
 *.tfvars
+*.tfvars.json
