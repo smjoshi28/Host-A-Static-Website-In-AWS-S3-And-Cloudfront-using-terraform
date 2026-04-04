@@ -12,8 +12,7 @@ This project automates the deployment of a high-performance, globally distribute
 * **CloudFront:** Provides a Global CDN, SSL termination (HTTPS), and reduces load on the S3 bucket.
 * **OAC/Policy:** Securely manages public read access to ensure the bucket isn't accidentally exposed to writes.
 
-![Project Screenshot](Host a static website.png)
-
+![AWS Architecture Diagram](images/architecture.png)
 ---
 
 ## 📁 Project Structure
